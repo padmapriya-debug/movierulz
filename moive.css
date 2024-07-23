@@ -1,0 +1,173 @@
+.movie,
+.top,
+.menu,
+.home,
+.inside,
+.block,
+.up,
+.one,
+.moiveimg,
+.blck1,
+.block2,
+.block3 {
+    border: 1px white solid;
+}
+
+.t1 {
+    font-size: 35px;
+}
+
+.movie {
+    background-color: black;
+    color: white;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+
+    .up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        input {
+            padding: 5px 10px;
+            border: none;
+            outline: none;
+        }
+
+        .b1 {
+            border: none;
+            outline: none;
+            color: black;
+            padding: 5px 20px;
+            font-size: 16px;
+        }
+    }
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+    .b {
+        border: none;
+        outline: none;
+        color: black;
+        padding: 5px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap:80px;
+    .one {
+        font-size: 30px;
+    }
+
+    .movieimg {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        .com {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .im {
+                height: 250px;
+                width: 180px;
+            }
+
+            .para {
+                width: 190px;
+                text-align: center;
+            }
+        }
+
+    }
+    .block{
+        .teli
+        {
+            padding:50px;
+            height:100px;
+            width:250px;
+        }
+        .block2{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+                padding: 10px 20px;
+            
+        }
+        .alpha
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:1px;
+            border: 1px white;
+            padding: 2px 20px;
+        }
+        .block3
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 10px 20px;
+        }
+        .year
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:1px;
+            padding: 2px 20px;
+
+
+                }
+    }
+}
